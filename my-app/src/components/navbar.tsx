@@ -21,7 +21,9 @@ export default function Navbar() {
                     <Link href="/about" style={{ textDecoration: "none" }}>
                         <Text fontWeight="thin" color="white" transition="color 0.3s ease" _hover={{color: "#E0BD67",}} fontSize="xl" lineHeight="1">ABOUT ME</Text>
                     </Link>
+                    <Link href="/contact" style={{textDecoration: "none" }}>
                         <Text fontWeight="thin" color="white" transition="color 0.3s ease" _hover={{color: "#E0BD67",}} fontSize="xl" lineHeight="1">CONTACT</Text>
+                    </Link>
                     <Box pl="200px">
                         <Text fontWeight="thin" color="white" fontSize="xl" lineHeight="1">CALL ME: 0402 201 023</Text>
                     </Box>
