@@ -1,4 +1,10 @@
-import { Bebas_Neue, Cormorant_Garamond } from "next/font/google";
+import { Bebas_Neue, Cormorant_Garamond, Playfair_Display } from "next/font/google";
+
+export const playfair = Playfair_Display({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-playfair",
+});
 
 export const bebas = Bebas_Neue({
   weight: "400",
