@@ -2,7 +2,7 @@ import { Box, HStack, Link, Text, VStack } from "@chakra-ui/react";
 
 export default function Footer() {
     return(
-        <Box as="footer" py={6} px={8} borderTopWidth="3px" borderColor="gray.400" bg="gray.200">
+        <Box as="footer" py={3} px={8} borderTopWidth="3px" borderColor="gray.400" bg="gray.200">
             <HStack justify="space-between">
                 <Text fontSize="sm" color="gray.500">
                     Jeremy Smith's ABN: 600 88344154
