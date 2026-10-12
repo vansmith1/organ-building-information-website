@@ -1,5 +1,6 @@
 import { Box, Text } from "@chakra-ui/react";
 import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 export default function Index() {
 	return (
@@ -10,6 +11,7 @@ export default function Index() {
 					WELCOME TO JSOB
 				</Text>
 			</Box>
+			<Footer/>
 		</>
 	)
 }
