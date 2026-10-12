@@ -8,9 +8,7 @@ export default function Index() {
 			<Navbar/>
 			<Box w="50%">
 				<Text color="#E0BD67">
-					Welcome to
-					JEREMY SMITH ORGAN BUILDER
-					A wealth of knowledge in all aspects of the trade.
+					WELCOME TO JSOB
 				</Text>
 			</Box>
 			<Footer/>
