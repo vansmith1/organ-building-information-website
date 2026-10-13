@@ -26,10 +26,10 @@ export default function Contact() {
 						Get in touch!
 					</Text>
 					<Text className={playfair.className}>
-						Call me on: <Link href="tel:0402201023">0402 201 023</Link>
+						Call Jeremy on: <Link href="tel:0402201023">0402 201 023</Link>
 					</Text>
 					<Text className={playfair.className}>
-						Email me: <Link href="mailto:jdmsmith73@gmail.com">jdmsmith73@gmail.com</Link>
+						Email Jeremy at: <Link href="mailto:jdmsmith73@gmail.com">jdmsmith73@gmail.com</Link>
 					</Text>
 				</Box>
 				<Footer/>
