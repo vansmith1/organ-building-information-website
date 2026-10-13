@@ -1,12 +1,19 @@
-import { Text, Heading } from "@chakra-ui/react";
+import Footer from "@/components/footer";
+import Navbar from "@/components/navbar";
+import { cormorant, playfair } from "@/fonts";
+import { Text } from "@chakra-ui/react";
 
 export default function About() {
   	return (
 		<>
-			<Heading>
+			<Navbar/>
+			<Text className={cormorant.className}>
+				About Me
+			</Text>
+			<Text className={cormorant.className}>
 				Jeremy Smith
-			</Heading>
-			<Text>
+			</Text>
+			<Text className={playfair.className}>
 				Jeremy Smith was born in Launceston in 1973. 
 				At the age of 5 he began learning the piano, 
 				his interest in organs developing after he commenced organ 
@@ -30,6 +37,7 @@ export default function About() {
 				Since 2022 to current, Jeremy Smith has now looks after multiple
 				pipe organs in Victoria, South Australia, and Tasmania.
 			</Text>
+			<Footer/>
 		</>
     )
 }

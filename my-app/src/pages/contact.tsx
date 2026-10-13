@@ -1,18 +1,23 @@
-import { Heading, Text } from "@chakra-ui/react";
+import Footer from "@/components/footer";
+import Navbar from "@/components/navbar";
+import { bebas, playfair } from "@/fonts";
+import { Text } from "@chakra-ui/react";
 
 export default function Contact() {
     return (
     	<>
-			<Heading>
+			<Navbar/>
+			<Text className={bebas.className}>
 				Contact
-			</Heading>
-			<Heading>
+			</Text>
+			<Text className={bebas.className}>
 				Get in touch!
-			</Heading>
-			<Text>
+			</Text>
+			<Text className={playfair.className}>
 				Call me on: 0402 201 023
 				Or Email me: jdmsmith73@gmail.com
 			</Text>
+			<Footer/>
 		</>
     )
 }
