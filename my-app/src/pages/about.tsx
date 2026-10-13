@@ -21,7 +21,7 @@ export default function About() {
 					</Text>
 				</Flex>
 			</Box>
-			<Text className={bebas.className} align="center" fontSize="4xl" py="10" color="#ffe298">
+			<Text className={bebas.className} align="center" fontSize="4xl" pt="10" color="#ffe298">
 				Jeremy Smith
 			</Text>
 			<Box maxW="750px" mx="auto" px={6} pb={16}>
