@@ -26,16 +26,16 @@ export default function Index() {
 					bg="blackAlpha.400"
 					px={6}
         		>
-					<Text className={cormorant.className} color="#E0BD67" fontSize="8xl" lineHeight="1">
+					<Text textShadow="0 2px 8px rgba(0, 0, 0, 0.6)" className={cormorant.className} color="#E0BD67" fontSize="8xl" lineHeight="1">
 						Welcome to
 					</Text>
-					<Text className={playfair.className} color="white" fontSize={{ base: "8xl" }} lineHeight="1">
+					<Text textShadow="0 2px 8px rgba(0, 0, 0, 0.6)" className={playfair.className} color="white" fontSize={{ base: "8xl" }} lineHeight="1">
 						JEREMY SMITH
 					</Text>
-					<Text className={playfair.className} color="white" fontSize={{ base: "5xl", md: "7xl" }} lineHeight="1">
+					<Text textShadow="0 2px 8px rgba(0, 0, 0, 0.6)" className={playfair.className} color="white" fontSize={{ base: "5xl", md: "7xl" }} lineHeight="1">
 						ORGAN BUILDER
 					</Text>
-					<Text className={bebas.className} color="white" fontSize="l" mt={2}>
+					<Text textShadow="0 2px 8px rgba(0, 0, 0, 0.6)" className={bebas.className} color="white" fontSize="l" mt={2}>
 						A wealth of knowledge in all aspects of the trade.
 					</Text>
 				</Flex>
