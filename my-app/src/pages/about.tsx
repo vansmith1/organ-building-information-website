@@ -1,6 +1,6 @@
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
-import { bebas, cormorant, playfair } from "@/fonts";
+import { bebas, playfair } from "@/fonts";
 import { Box, Flex, Link, SimpleGrid, Image, Stack, Text } from "@chakra-ui/react";
 
 export default function About() {
