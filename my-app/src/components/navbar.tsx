@@ -26,16 +26,20 @@ export default function Navbar() {
                         <Link href="/services" style={{ textDecoration: "none" }}>
                             <Text color="white" transition="color 0.3s ease" _hover={{ color: "#E0BD67" }} fontSize="xl" lineHeight="1">SERVICES</Text>
                         </Link>
-                        <Link href="/contact" style={{ textDecoration: "none" }}>
-                            <Text color="white" transition="color 0.3s ease" _hover={{ color: "#E0BD67" }} fontSize="xl" lineHeight="1">CONTACT</Text>
-                        </Link>
                     </Flex>
                 </Flex>
-
-                <Link href="tel:0402201023" display={{ base: "none", lg: "block" }} style={{ textDecoration: "none" }}>
-                    <Text color="white" fontSize="xl" lineHeight="1" whiteSpace="nowrap">CALL ME: 0402 201 023</Text>
-                </Link>
-
+                <Box pr="20px">
+                    <Link href="tel:0402201023" display={{ base: "none", lg: "block" }} style={{ textDecoration: "none" }}>
+                        <Text color="white" transition="color 0.3s ease" _hover={{ color: "#E0BD67" }} fontSize="xl" lineHeight="1" whiteSpace="nowrap">
+                            Call Me: 0402 201 023
+                        </Text>
+                    </Link>
+                    <Link href="mailto:jdmsmith73@gmail.com" display={{ base: "none", lg: "block" }} style={{ textDecoration: "none" }}>
+                        <Text color="white" transition="color 0.3s ease" _hover={{ color: "#E0BD67" }} fontSize="xl" lineHeight="1" whiteSpace="nowrap">
+                            Email Me: jdmsmith73@gmail.com
+                        </Text>
+                    </Link>
+                </Box>
                 <Box
                     as="button"
                     display={{ base: "block", md: "none" }}
