@@ -61,6 +61,22 @@ export default function About() {
 						<Image src="/images/aboutme.webp" alt="Jeremy Smith at an organ console" w="100%" />
 					</Stack>
 				</SimpleGrid>
+				<Text className={bebas.className} align="center" fontSize="4xl" pt="10" color="#ffe298">
+					Testimonials
+				</Text>
+				<Box maxW="800px" minH="calc(100vh - 380px)" mx="auto" px={{ base: 6, md: 12 }} pb={10} pt={7}>
+					<Text className={playfair.className}>
+						"Jeremy has been tuning and undertaking maintenance work on the organ 
+						of St Paul’s Cathedral since 2012. His tuning is immaculate, his 
+						maintenance work sound, and his advice clear and timely. I have no 
+						hesitation in recommending him to anyone who is the custodian of a 
+						pipe organ for first rate tuning and maintenance."
+					</Text>
+					<Text className={playfair.className}>
+						- Philip Nicholls, Director of Music, St Paul’s Cathedral Melbourne.
+					</Text>
+					<Image src="/images/testimonial-ian.webp" pt={10} alt="Testimonial" w="100%" />
+				</Box>
 			</Box>
 			<Footer/>
 		</>
