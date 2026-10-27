@@ -7,12 +7,12 @@ export default function Index() {
 	return (
 		<>
 			<Navbar/>
-			<Box position="relative" w="100%" h="calc(100vh - 80px)">
+			<Box position="relative" w="100%" h="calc(200vh)">
 				<Image 
 					src="images/homepage.webp" 
 					alt="Organ" 
 					width="100%" 
-					h="calc(100vh - 80px)"
+					h="calc(200vh)"
 					objectFit="cover"
 					objectPosition="center 30%"
 				/>
@@ -21,11 +21,12 @@ export default function Index() {
 					inset="0"
 					direction="column"
 					align="center"
-					justify="center"
+					justify="flex-start"
+					pt={{ base: "20vh", md: "25vh" }}
 					textAlign="center"
 					bg="blackAlpha.400"
 					px={6}
-        		>
+				>
 					<Text textShadow="0 2px 8px rgba(0, 0, 0, 0.6)" className={cormorant.className} color="#E0BD67" fontSize="8xl" lineHeight="1">
 						Welcome to
 					</Text>
