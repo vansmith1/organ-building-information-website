@@ -63,15 +63,15 @@ export default function Navbar() {
                     <Link href="/services" style={{ textDecoration: "none" }}>
                         <Text color="white" fontSize="2xl" lineHeight="1">SERVICES</Text>
                     </Link>
-                    <Link href="mailto:jdmsmith73@gmail.com" display={{ base: "none", lg: "block" }} style={{ textDecoration: "none" }}>
-                        <Text color="white" transition="color 0.3s ease" _hover={{ color: "#E0BD67" }} fontSize="xl" lineHeight="1" whiteSpace="nowrap">
+                    <Link href="mailto:jdmsmith73@gmail.com" style={{ textDecoration: "none" }}>
+                        <Text color="#E0BD67" fontSize="2xl" lineHeight="1">
                             EMAIL ME: jdmsmith73@gmail.com
                         </Text>
                     </Link>
                     <Link href="tel:0402201023" style={{ textDecoration: "none" }}>
                         <Text color="#E0BD67" fontSize="2xl" lineHeight="1">
                             CALL ME: 0402 201 023
-                            </Text>
+                        </Text>
                     </Link>
                 </Stack>
             )}
