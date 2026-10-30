@@ -36,7 +36,7 @@ export default function Index() {
 					<Text textShadow="0 2px 8px rgba(0, 0, 0, 0.6)" className={playfair.className} color="white" fontSize={{ base: "5xl", md: "7xl" }} lineHeight="1">
 						ORGAN BUILDER
 					</Text>
-					<Text textShadow="0 2px 8px rgba(0, 0, 0, 0.6)" className={bebas.className} color="white" fontSize="l" mt={2}>
+					<Text textShadow="0 2px 8px rgba(0, 0, 0, 0.6)" className={bebas.className} color="white" fontSize="4xl" mt={2}>
 						A wealth of knowledge in all aspects of the trade.
 					</Text>
 				</Flex>
