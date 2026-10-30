@@ -12,7 +12,7 @@ export default function ContactPopup() {
             {open && (
                 <Box
                     position="fixed"
-                    bottom="100px"
+                    bottom="170px"
                     right={{ base: 4, md: 8 }}
                     w={{ base: "calc(100vw - 32px)", sm: "360px" }}
                     bg="white"
@@ -39,7 +39,7 @@ export default function ContactPopup() {
             <Box
                 as="button"
                 position="fixed"
-                bottom={{ base: 4, md: 8 }}
+                bottom={{ base: 20, md: 24 }}
                 right={{ base: 4, md: 8 }}
                 w="64px"
                 h="64px"
