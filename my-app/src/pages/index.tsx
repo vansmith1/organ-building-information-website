@@ -2,10 +2,18 @@ import { Box, Text, Image, Flex } from "@chakra-ui/react";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { playfair, cormorant, bebas } from "@/fonts";
+import Head from "next/head";
 
 export default function Index() {
 	return (
 		<>
+			<Head>
+        		<title>Jeremy Smith Organ Builder | Pipe Organ Tuning, Maintenance & Restoration</title>
+				<meta
+					name="description"
+					content="Melbourne-based pipe organ builder with over 30 years' experience in tuning, maintenance, pipe repair, voicing and restoration across Victoria, South Australia and Tasmania."
+				/>
+      		</Head>
 			<Navbar/>
 			<Box position="relative" w="100%" h="calc(200vh)">
 				<Image 

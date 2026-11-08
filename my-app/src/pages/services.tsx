@@ -2,6 +2,7 @@ import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import { Box, Flex, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import { bebas, playfair } from "@/fonts";
+import Head from "next/head";
 
 const services = [
 	{ title: "Tuning and maintenance", image: "/images/jeremy-tuning-pipes.webp" },
@@ -16,6 +17,13 @@ const services = [
 export default function Services() {
   	return (
 		<>
+		<Head>
+        	<title>Jeremy Smith Organ Builder | Pipe Organ Tuning, Maintenance & Restoration</title>
+			<meta
+				name="description"
+				content="Services | Jeremy Smith"
+			/>
+      	</Head>
 		<Navbar />
 		<Box
 			h="300px"

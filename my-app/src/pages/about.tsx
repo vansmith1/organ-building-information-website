@@ -2,10 +2,18 @@ import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import { bebas, playfair } from "@/fonts";
 import { Box, Flex, Link, SimpleGrid, Image, Stack, Text } from "@chakra-ui/react";
+import Head from "next/head";
 
 export default function About() {
   	return (
 		<>
+			<Head>
+        		<title>Jeremy Smith Organ Builder | Pipe Organ Tuning, Maintenance & Restoration</title>
+				<meta
+					name="description"
+					content="About Me | Jeremy Smith"
+				/>
+      		</Head>
 			<Navbar/>
 			<Box
 				h="300px"
