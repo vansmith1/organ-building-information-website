@@ -13,6 +13,7 @@ export default function About() {
 					name="description"
 					content="About Me | Jeremy Smith"
 				/>
+				<link rel="canonical" href="https://jeremysmithorganbuilder.com/about" />
       		</Head>
 			<Navbar/>
 			<Box

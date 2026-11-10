@@ -13,6 +13,7 @@ export default function Index() {
 					name="description"
 					content="Melbourne-based pipe organ builder with over 30 years' experience in tuning, maintenance, pipe repair, voicing and restoration across Victoria, South Australia and Tasmania."
 				/>
+				<link rel="canonical" href="https://jeremysmithorganbuilder.com/"/>
       		</Head>
 			<Navbar/>
 			<Box position="relative" w="100%" h="calc(200vh)">

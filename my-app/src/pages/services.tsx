@@ -23,6 +23,7 @@ export default function Services() {
 				name="description"
 				content="Services | Jeremy Smith"
 			/>
+			<link rel="canonical" href="https://jeremysmithorganbuilder.com/services" />
       	</Head>
 		<Navbar />
 		<Box
